@@ -10,9 +10,7 @@
 
 ## npm init egg --type=simple
 
-## cnpm i
-
-
+## cnpm i 安装依赖
 
 ## QuickStart
 
