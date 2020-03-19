@@ -12,6 +12,8 @@
 
 ## cnpm i 安装依赖
 
+## cnpm i egg-view-ejs --save 安装模板引擎
+
 ## QuickStart
 
 <!-- add docs here for user -->
@@ -41,3 +43,5 @@ $ npm stop
 
 
 [egg]: https://eggjs.org
+
+## await

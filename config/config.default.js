@@ -17,6 +17,18 @@ module.exports = appInfo => {
 
   // add your middleware config here
   config.middleware = [];
+  // 关闭csrf安全设置
+  config.security = {
+    csrf: {
+      enable: false,
+    },
+  };
+  // 以xxx结尾就是模板引擎
+  config.view = {
+    mapping: {
+      '.html': 'ejs',
+    },
+  };
 
   // add your user config here
   const userConfig = {
